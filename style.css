@@ -1,0 +1,97 @@
+body {
+	background-color: #90CAF9;
+	color: #42A5F5;
+	font-family: 'Poppins', sans-serif;
+}
+
+h1, h2 {
+	font-family: EB Garamong;
+	font-weight: 600;
+}
+h1{
+	color: #42A5F5;
+	letter-spacing: 3px;
+	font-size: 25px;
+	text-transform: uppercase;
+}
+h2{
+	color: #2196F3;
+	font-size: 23px;
+	letter-spacing: 2px;
+}
+a{
+	text-decoration-color: none;
+	color: #42A5F5;
+	font-weight: bold;
+	font-size: 17px;
+}
+a:hover{
+	color: #42A5F5;
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.5);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50px;
+}
+.btn-blue{
+	background-color:#42A5F5;
+	color: #42A5F5;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-white: hover{
+	background-color: black;
+	color: white;
+}
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: #1E88E5;
+}
+.list-inline i hover {
+	color: black;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
+@media (max-width: 750px) {
+	.container{
+		width: 600px;
+	}
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
